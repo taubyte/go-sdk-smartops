@@ -4,13 +4,13 @@ go 1.18
 
 // Direct Taubyte imports
 require (
-	github.com/taubyte/go-sdk v0.2.7
-	github.com/taubyte/go-sdk-symbols v0.1.7
+	github.com/taubyte/go-sdk v0.3.3
+	github.com/taubyte/go-sdk-symbols v0.2.2
 )
 
 // Indirect imports
 require (
-	github.com/ipfs/go-cid v0.3.2
+	github.com/ipfs/go-cid v0.0.7
 	github.com/klauspost/cpuid/v2 v2.2.3 // indirect
 	github.com/minio/sha256-simd v1.0.0 // indirect
 	github.com/mr-tron/base58 v1.2.0 // indirect
